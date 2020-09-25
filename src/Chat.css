@@ -1,0 +1,84 @@
+.chat {
+  display: flex;
+  flex-direction: column;
+  flex: 0.65;   
+}
+
+.chat__header {
+  padding: 5px;
+  display: flex;
+  border-bottom: 1px solid lightgray;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  
+}
+
+.chat__headerInfo {
+  flex: 1;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  
+}
+.chat__headerInfo > h5 {
+  margin-bottom: 3px;
+  font-weight: 500;
+  flex: 0.65;
+}
+
+.chat__headerInfo > h6{
+  color: gray;
+  flex: 0.35;
+  
+}
+.chat__headerRight > .MuiSvgIcon-root{
+  margin-right: 2vw;
+  font-size: 24px !important;
+  
+}
+
+.chat__body {
+  flex: 1;
+  background-image: url('https://res.cloudinary.com/practicaldev/image/fetch/s--WAKqnINn--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/tw0nawnvo0zpgm5nx4fp.png');
+  background-repeat: repeat;
+  background-position: center;
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  overflow-y: scroll;
+
+}
+
+.chat__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 65px;
+  padding: 0px 15px 0px 15px;
+  border-top: 1px solid lightgray;
+  
+}
+.chat__footer > form {
+  flex: 1;
+  display: flex;
+  padding: 10px;
+  border: none;
+}
+.chat__footer > form > input {
+  flex: 1;
+  border-radius: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  border: none;
+}
+
+.chat__footer > form > input:focus {
+  outline: none;
+}
+
+.chat__footer > .MuiSvgIcon-root {
+  padding: 10px;
+  color: gray;
+}
